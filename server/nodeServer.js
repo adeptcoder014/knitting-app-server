@@ -86,3 +86,4 @@ app.delete("/delete-auth-user/:id", async (req, res) => {
 })
 //=============================================
 app.listen(port, () => { console.log(`chal gaya node server ${port} ispe`) })
+module.exports = app;
